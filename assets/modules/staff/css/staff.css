@@ -1,0 +1,38 @@
+.action-area {
+    /*! text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.action-btn {
+    background: #5e4a4a;
+    /*! padding: ; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px;
+    border-radius: 4px;
+}
+
+.download-btn {
+    background: #49a0fd;
+    color: white !important;
+}
+
+.remove-file {
+
+    background: #f27c7c;
+    color: white !important;
+}
+
+.action-btn.view-detail {
+    background: #007bff;
+    color: white;
+}
+
+.action-btn.edit-file {
+    background: #eed367;
+    color: white;
+}

@@ -1,0 +1,7 @@
+.card-no-border .card {
+     border-radius: 20px !important;
+}
+.card-body.top {
+     border-radius: 20px;
+     background-color: #242933;
+}

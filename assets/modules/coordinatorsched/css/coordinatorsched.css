@@ -1,0 +1,80 @@
+/* =========== Days ========= */
+
+.fc-day-top.fc-sun.fc-today, .fc-day-top.fc-mon.fc-today, .fc-day-top.fc-tue.fc-today, .fc-day-top.fc-wed.fc-today, .fc-day-top.fc-thu.fc-today, .fc-day-top.fc-fri.fc-today, .fc-day-top.fc-sat.fc-today {
+	color: black;
+    background-color: rgb(129, 253, 235) !important;
+}
+.fc-day.fc-widget-content.fc-sun.fc-today, .fc-day.fc-widget-content.fc-mon.fc-today,.fc-day.fc-widget-content.fc-tue.fc-today,.fc-day.fc-widget-content.fc-wed.fc-today, .fc-day.fc-widget-content.fc-thu.fc-today, .fc-day.fc-widget-content.fc-fri.fc-today,.fc-day.fc-widget-content.fc-sat.fc-today {
+    color: black;
+    background-color: rgb(129, 253, 235) !important;
+}
+/* month */
+.fc-month-button.fc-button.fc-state-default.fc-corner-left.fc-state-active {
+	color: #000;
+	background-color: rgb(119, 248, 255);
+}
+/* week */
+.fc-basicWeek-button.fc-button.fc-state-default.fc-state-active{
+    color: #000;
+	background-color: rgb(119, 248, 255);
+}
+/* day */
+.fc-basicDay-button.fc-button.fc-state-default.fc-corner-right.fc-state-active{
+    color: #000;
+	background-color: rgb(119, 248, 255);
+}
+.fc-toolbar button:focus{
+    outline: none;
+}
+
+.toast-message{
+    color:black;
+    font-weight: bold;
+    text-align:center;
+}
+.fc-event{
+    cursor: pointer;
+}
+.calendar-parent {
+	height: 100vh;
+}  
+.fc-toolbar {
+padding: 15px 20px 10px;
+}
+.card-body.addnew {
+	position: absolute;
+	right: 1.4%;
+	top: 42%;
+	z-index: 999;
+}
+.card-body.selecoption{
+	position: absolute;
+	z-index: 999;
+}
+.col-lg-12.divider {
+	height: 43px;
+}
+.fc th.fc-sun, .fc th.fc-mon, .fc th.fc-tue, .fc th.fc-wed, .fc th.fc-thu, .fc th.fc-fri, .fc th.fc-sat {
+	background: #09caf0;
+	color: black;
+	font-weight: 900;
+}
+.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right.fc-state-disabled {
+	background: #3efde1;
+	color: black;
+	font-weight: 900;
+}
+.fc-unthemed .fc-today {
+	background: #81fdeb !important;
+}
+.fc-time {
+	display: none;
+}
+.card-body.top {
+	border-radius: 20px;
+	background-color: #242933;
+}
+.fc-more {
+	color: blue !important;
+	text-decoration: underline !important;
+}
